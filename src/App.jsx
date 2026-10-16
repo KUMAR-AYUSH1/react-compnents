@@ -48,14 +48,14 @@ export default function App() {
           <MaskContainer
             revealText={
               <span className="text-4xl font-bold text-black dark:text-white md:text-6xl ">
-                Hello, World!
+                Hover over here 
               </span>
             }
             revealSize={600}
             theme="dark"
           >
             <h1 className="text-center text-3xl font-bold text-neutral-500 md:text-5xl">
-              Move your cursor to reveal the hidden text.
+              work in progress
             </h1>
           </MaskContainer>
         </section>
