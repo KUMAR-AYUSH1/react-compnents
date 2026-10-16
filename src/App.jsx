@@ -9,6 +9,8 @@ import { CardStackDemo } from "./components/card.jsx";
 
 import ComboBox from "./components/ComboBox.jsx";
 
+import Page2 from "./page2.jsx";
+
 import {
   TooltipCardDemo,
   CardHoverEffectDemo,
@@ -85,6 +87,7 @@ export default function App() {
 
         {/* Animated Components */}
         <section className="space-y-20 px-6 py-16">
+          
           <InfiniteMovingCardsDemo />
 
           <LayoutTextFlipDemo />
@@ -117,6 +120,7 @@ export default function App() {
       {/* <div className="pointer-events-none absolute inset-0 z-20">
         <TracingBeam />
       </div> */}
+      <Page2 />
     </main>
   );
 }
