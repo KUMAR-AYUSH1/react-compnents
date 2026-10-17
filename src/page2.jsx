@@ -2,6 +2,10 @@
 import {BasicButtons,IconButtonWithBadge,Checkboxes,FloatingActionButtonSize,RadioButtonsGroup,RadioButtons,BasicRating,HoverRating,CustomizedRating,MultipleSelectPlaceholder,SliderSizes} from "./test3.jsx";
 import {InputSlider,BasicSwitches,IOSSwitch,BasicTextFields, AvatarGroupBasic,BadgeAvatars,BadgeIntro} from "./test4.jsx";
 import {BasicTable,DataTable} from "./test5.jsx";
+
+import {TextNameLoop,WarpTextLoop,FoldTextLoop,DepthCarouselLoop,LanyardLoop} from "./test6.jsx";
+
+
 export default function Page2() {
     return <div>
         <BasicButtons />
@@ -27,6 +31,12 @@ export default function Page2() {
         <BadgeAvatars/>
         <BasicTable/>
         <DataTable/>
+        <TextNameLoop/>
+        <WarpTextLoop/>
+        <FoldTextLoop/>
+        <DepthCarouselLoop/>
+        {/* <LanyardLoop/> */}
+       
     </div>
 }
 

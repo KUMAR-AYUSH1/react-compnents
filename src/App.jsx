@@ -10,6 +10,7 @@ import { CardStackDemo } from "./components/card.jsx";
 import ComboBox from "./components/ComboBox.jsx";
 
 import Page2 from "./page2.jsx";
+import Page3 from "./page3.jsx";
 
 import {
   TooltipCardDemo,
@@ -121,6 +122,7 @@ export default function App() {
         <TracingBeam />
       </div> */}
       <Page2 />
+      <Page3 />
     </main>
   );
 }
